@@ -1,0 +1,91 @@
+.st_iconbox.st_style1 {
+    text-align: center;
+    padding: 35px 35px 25px;
+    border-radius: 7px;
+    -webkit-transition: all 0.4s ease;
+    transition: all 0.4s ease;
+    border: 1px solid #af5689;
+    background-color: #af5689;
+}
+
+.st_iconbox.st_style1:hover {
+    border-color: transparent;
+    -webkit-box-shadow: 0px 1px 30px 0px rgba(112, 112, 112, 0.15);
+    box-shadow: 0px 1px 30px 0px rgba(112, 112, 112, 0.15);
+}
+
+.st_iconbox.st_style1 .st_iconbox_icon {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    height: 90px;
+    width: 90px;
+    border-radius: 50%;
+    margin: auto;
+    font-size: 50px;
+    margin-bottom: 25px;
+    -webkit-transition: all 0.4s ease;
+    transition: all 0.4s ease;
+    background: #fff;
+}
+
+.st_iconbox.st_style1 .st_iconbox_icon img {
+    width: 57px;
+}
+
+.st_iconbox.st_style1 .st_iconbox_title {
+    font-weight: 600;
+    line-height: 1.2em;
+    font-size: 20px;
+    margin-bottom: 10px;
+    color: yellowgreen;
+}
+
+.st_iconbox.st_style1 .st_iconbox_text {
+    color: #fff;
+    min-height: 50px;
+}
+
+.st_iconbox.st_style1.st_type1 {
+    margin-top: 50px;
+    padding-top: 0;
+}
+
+.st_iconbox.st_style1.st_type1 .st_iconbox_icon {
+    background-color: #af5689;
+    color: #fff;
+    position: relative;
+    top: -50px;
+    margin-bottom: -25px;
+}
+
+.st_iconbox.st_style1.st_type2 {
+    background-color: transparent;
+    border: none;
+    text-align: left;
+    padding: 0;
+    max-width: 300px;
+}
+
+.st_iconbox.st_style1.st_type2:hover {
+    background: transparent;
+    -webkit-box-shadow: none;
+    box-shadow: none;
+}
+
+.st_iconbox.st_style1.st_type2 .st_iconbox_icon {
+    font-size: 50px;
+    margin-left: 0;
+    height: 72px;
+    width: 72px;
+}
+
+.st_iconbox.st_style1.st_type2 .st_iconbox_icon svg {
+    width: 38px;
+}
